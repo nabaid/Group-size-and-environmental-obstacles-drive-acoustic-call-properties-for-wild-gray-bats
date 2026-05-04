@@ -1,5 +1,5 @@
 # Group-size-and-environmental-obstacles-drive-acoustic-call-properties-for-wild-gray-bats
-Data and code for" Group size and environmental obstacles drive acoustic call properties for wild gray bats in flight: a data-driven analysis". 
+Data and code for" Group size and environmental obstacles drive acoustic call properties for wild gray bats in flight: a data-driven analysis". https://doi.org/10.1371/journal.pcsy.0000100
 
 Data is found in the .csv files named "NF", "NM", "OF", and "OM" representing the environmental conditions: no obstacles few bats, no obstacles many bats, obstacles few bats, and obstacles many bats respectively. For each file, the columns are arranged by number of bats, calls per bat, acoustic power per bat, total calls, and total acoustic power. Audio recordings of the different flight conditions have recently been added (2 minutes per condition): NFb.wav, NMb.wav, OFb.wav, and OMb.wav. 
 
