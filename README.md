@@ -3,7 +3,7 @@ Data and code for" Group size and environmental obstacles drive acoustic call pr
 
 Data is found in the .csv files named "NF", "NM", "OF", and "OM" representing the environmental conditions: no obstacles few bats, no obstacles many bats, obstacles few bats, and obstacles many bats respectively. For each file, the columns are arranged by number of bats, calls per bat, acoustic power per bat, total calls, and total acoustic power. 
 
-Audio recordings of the different flight conditions have recently been added to the audio_data folder containing 2 minutes, where each condition is divided into part 1 and part 2. While the data was divided for overcoming the upload file size limit, the analysis was performed for the whole 2 minutes for each condition.
+Audio recordings of the different flight conditions have recently been added to the audio_data folder containing 2 minutes for each environmental condition, where each condition is divided into part 1 and part 2. While the data was divided for overcoming the upload file size limit, the analysis was performed for the whole 2 minutes for each condition.
 
 For this work, transfer entropy (TE) is calculated using the file "TE_wFigure.m", which uses the Java Information Dynamics Toolkit (JIDT) from Lizier found here: https://github.com/jlizier/jidt. Our code includes TE of permuted source arrays to compare the significance of the true TE via a z-score test. A figure of the TE of the original data vs a swarm plot of the TE of the permuted sources is also given by this code. 
 
